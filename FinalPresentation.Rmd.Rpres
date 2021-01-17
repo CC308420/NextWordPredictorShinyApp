@@ -1,0 +1,32 @@
+Predict Next Word!
+========================================================
+author: Tang Pok Lam
+date: 17/01/2021
+autosize: true
+
+Overview
+========================================================
+This is a product for predicting the next word that user wanted to type.
+This product is very user-friendly, it can append the predicted word to your sentence automatically.
+User can even use it to generate a sentence or article by providing starting words.
+
+![](writing.jpg)
+
+How it works?
+========================================================
+This product predicts the next word using multiple **n-gram** models.
+Those n-gram models are trained using the data optained from blogs, news and twitter posts.
+Before training the model, the data are being cleaned to remove neccessary content such as punctuation, stopwords and URLs.
+
+This product predicts the next word using multiple n-gram models including bigram, trigram, quadgram models in order to get a better and accurater result.
+The models are compressed to keep the top and useful results only in order to reduce the size and running time of the product.
+
+Screenshot of Product
+========================================================
+![](Screenshot.png)
+
+How to use?
+========================================================
+- Type your word / phrase / sentence in the text input box
+- The system will predict next word automatically and show the result
+- If you think the predicted word is accurate, press "Enter" on the keyboard or "Accept" on the screen accept the predicted word. The system will append the predicted word to the end of your sentence automatically.
